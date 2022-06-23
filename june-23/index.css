@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+}
+
+button{
+    background-color: white;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+}
+
+[name="value"]{
+    background-color: blue;
+}
+
+[sandeep]{
+    background-color: purple;
+}
+
+[special]{
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 15px;
+    border-width: 5px;
+    text-align: justify;
+    border-top-color: yellow;
+    border-left-color: red;
+    border-right-color: green;
+    border-bottom-color:blue ;
+}
+
+.note{
+    background-color: yellow;
+}
+
+.note2{
+    color: red;
+}
