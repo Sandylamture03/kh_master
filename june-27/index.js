@@ -23,4 +23,5 @@ if(Marks>=80){
     console.log("Pass");
 } else{
     console.log("Fail");
-}
+} 
+
