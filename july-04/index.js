@@ -4,8 +4,8 @@
   
 //   hello_world();
   
-//   // let tmp = 10n;
-//   // console.log(typeof tmp);
+  // let tmp = 10n;
+  // console.log(typeof tmp);
   
 //   let session_information = {
 //     'instructor_name': "Aayush Sinha",
@@ -52,7 +52,7 @@
     // "sub"
     // "mul"
     // "div"
-  }
+  // }
   
   // let sum_result = calculator.sum(10, 25);
   // console.log(sum_result);
@@ -65,51 +65,68 @@
   // console.info("ABCD");
   
   // console.log(typeof document);
-  // document.write("Hey everyone"); //❌ - This is not a good pratice. 
+  // document.write("Hey everyone"); // - This is not a good pratice. 
   
   // Create a button in HTML. Write a function and onclick 
   // of that button, do document.write()
   
   
-  function fun() {
-    let p = document.getElementById("some_para");
-    // console.log(p);
-    p.innerText = "Hey everyone";
-  }
+//   function fun() {
+//     let p = document.getElementById("some_para");
+//     // console.log(p);
+//     p.innerText = "Hey everyone";
+//   }
 
-let calculator = {
+// let calculator = {
 
-    'name': "my function",
-    "sum": function(a, b){
-        let sum = a + b;
-        return sum;
-    },
-    "sub": function(c, d){
-        let sub = c - d;
-        return sub;
-    },
-    "multiply": function(e, f){
-        let mul = e * f;
-        return mul;
-    },
-    "div": function(g, h){
-        let div = g / h;
-        return div;
-    }
+//     'name': "my function",
+//     "sum": function(a, b){
+//         let sum = a + b;
+//         return sum;
+//     },
+//     "sub": function(c, d){
+//         let sub = c - d;
+//         return sub;
+//     },
+//     "multiply": function(e, f){
+//         let mul = e * f;
+//         return mul;
+//     },
+//     "div": function(g, h){
+//         let div = g / h;
+//         return div;
+//     }
 
+// }
+// let sum_result = calculator.sum(10, 20);
+// console.log(sum_result);
+// let sub_result = calculator.sub(10, 20);
+// console.log(sub_result);
+// let multiply_result = calculator.multiply(10, 20);
+// console.log(multiply_result);
+// let div_result = calculator.div(10, 20);
+// console.log(div_result);
+
+// console.log(document);
+// document.write("hello there");
+
+// function write1(){
+//     document.write("hello there");
+// }
+
+
+
+// function dom(){
+//     let p = document.getElementById("dom");
+//     p.innerText = "First task of DOM manipulation";
+// }
+
+function add(){
+  let a = document.getElementById("dummy");
+  a.innerText = "lorem ipsum dolor sit amet";
 }
-let sum_result = calculator.sum(10, 20);
-console.log(sum_result);
-let sub_result = calculator.sub(10, 20);
-console.log(sub_result);
-let multiply_result = calculator.multiply(10, 20);
-console.log(multiply_result);
-let div_result = calculator.div(10, 20);
-console.log(div_result);
+// }
 
-console.log(document);
-document.write("hello there");
-
-function write1(){
-    document.write("hello there");
-}
+// function min(){
+    
+// }
