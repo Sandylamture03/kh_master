@@ -1,0 +1,46 @@
+thead td{
+    color: red;
+
+}
+tbody td{
+    /* color: blue; */
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-weight: 900;
+}
+tfoot td{
+    color: green;
+}
+
+table{
+    border-collapse: collapse;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+tbody tr:first-child{
+    background-color: #ccc;
+    color: black;
+
+}
+tbody tr:nth-child(2n){
+    background-color: #eee;
+    color:red;
+}
+tbody tr:last-child{
+    background-color: rgb(146, 143, 143);
+    color:yellow;
+}
+
+#special ~ li {
+    color: red;
+}
+
+ #special + li {
+    color: blue;
+}  
+ 
+ 
