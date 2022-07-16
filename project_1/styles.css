@@ -1,0 +1,23 @@
+.country-item{
+    display: inline;
+    border: solid;
+    /* margin: 50px; */
+    padding: 50px;
+
+}
+.bg-color{
+    background-color: cyan;
+}
+#country-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.country-item:hover{
+    background-color: lightblue;
+    scale: 1.5;
+    sc
+}
+.country-item:first-child{
+    background-color:red;
+}                       
