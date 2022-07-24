@@ -2,6 +2,9 @@ let students = [
     {name: 'John', score: 99},
     {name: 'sam', score: 50},
     {name: 'tony', score: 30},
+    {name: 'ayush', score: 81},
+    {name: 'sandy', score: 51},
+    {name: 'abhi', score: 31},
 ]
 
 let studentContainerElement = document.getElementById("container");
