@@ -44,10 +44,11 @@ const display = data => {
         container_element.appendChild(img_element);
         container_element.appendChild(title_element);
         container_element.appendChild(price_element);
-        container_element.appendChild(add_to_cart);
+        
         container_element.appendChild(rating_element);
         container_element.appendChild(rating_count_element);
         container_element.appendChild(description_element);
+        container_element.appendChild(add_to_cart);
         parent.appendChild(container_element);
 }
     }
